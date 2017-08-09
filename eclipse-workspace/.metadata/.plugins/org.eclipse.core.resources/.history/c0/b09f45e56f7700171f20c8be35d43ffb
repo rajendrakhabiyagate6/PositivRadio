@@ -1,0 +1,9 @@
+package PR_Signup;
+
+import org.testng.annotations.Test;
+
+public class BlankEmailTest {
+  @Test
+  public void f() {
+  }
+}

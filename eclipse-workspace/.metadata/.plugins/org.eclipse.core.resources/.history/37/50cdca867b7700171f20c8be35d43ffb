@@ -1,0 +1,43 @@
+package PR_Signup;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.ClickAction;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.AfterTest;
+
+public class SocialFacebookSignUpTest {
+	public String st = System.setProperty("webdriver.gecko.driver", "E:\\FireFox\\geckodriver.exe");
+
+	public WebDriver driver = new FirefoxDriver();
+
+	@Test
+	public void Email_Validation() throws InterruptedException {
+
+		driver.get("http://positivradio.test.gate6.com/web/#/register");
+		driver.findElement(By.className("facebook")).click();
+	
+		String URL = driver.getCurrentUrl();
+		System.out.println(URL);
+
+//		Thread.sleep(5000);
+//		Assert.assertEquals(URL, "http://positivradio.test.gate6.com/web/#/comingsoon");
+
+	}
+
+	@BeforeTest
+	public void beforeTest() {
+
+		driver.manage().window().maximize();
+
+	}
+
+	@AfterTest
+	public void afterTest() {
+
+		// driver.quit();
+	}
+}
