@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="PR_Signup.AppStatusTest"/>
+      <class name="PR_Signup.SUinvalidPassword"/>
+      <class name="PR_Signup.ValidSignupTest"/>
+      <class name="PR_Signup.InvalidEmailTest"/>
+      <class name="example.NewTest"/>
+      <class name="PR_Signup.SocialFacebookSignUpTest"/>
+      <class name="PR_Signup.BlankFullNameTest"/>
+      <class name="PR_Signup.BlankEmailTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

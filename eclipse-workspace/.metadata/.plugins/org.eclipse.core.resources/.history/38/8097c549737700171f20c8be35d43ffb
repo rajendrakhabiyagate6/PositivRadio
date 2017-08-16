@@ -1,9 +1,0 @@
-package PR_Signup;
-
-import org.testng.annotations.Test;
-
-public class ValidSignupTest {
-  @Test
-  public void f() {
-  }
-}

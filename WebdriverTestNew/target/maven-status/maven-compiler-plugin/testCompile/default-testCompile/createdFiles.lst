@@ -1,0 +1,8 @@
+example\NewTest.class
+PR_Signup\SUinvalidPassword.class
+PR_Signup\InvalidEmailTest.class
+PR_Signup\ValidSignupTest.class
+PR_Signup\AppStatusTest.class
+PR_Signup\BlankEmailTest.class
+PR_Signup\SocialFacebookSignUpTest.class
+PR_Signup\BlankFullNameTest.class
