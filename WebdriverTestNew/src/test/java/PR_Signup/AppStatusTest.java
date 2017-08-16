@@ -11,7 +11,7 @@ import org.testng.annotations.BeforeTest;
 
 public class AppStatusTest {
 	public String st = System.setProperty("webdriver.chrome.driver",
-			"E:\\ManishBackup\\chromedriver.exe");
+			"ChromeDriver\\chromedriver.exe");
 
 	public WebDriver driver = new ChromeDriver();
 

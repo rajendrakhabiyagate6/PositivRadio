@@ -11,7 +11,8 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.AfterTest;
 
 public class InvalidEmailTest {
-	public String st = System.setProperty("webdriver.chrome.driver", "E:\\ManishBackup\\chromedriver.exe");
+	public String st = System.setProperty("webdriver.chrome.driver",
+			"ChromeDriver\\chromedriver.exe");
 	public WebDriver driver = new ChromeDriver();
 
 	@Test(priority = 1)

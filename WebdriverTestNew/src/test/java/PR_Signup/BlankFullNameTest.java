@@ -12,7 +12,7 @@ import org.testng.annotations.AfterTest;
 
 public class BlankFullNameTest {
 	public String st = System.setProperty("webdriver.chrome.driver",
-			"E:\\ManishBackup\\chromedriver.exe");
+			"ChromeDriver\\chromedriver.exe");
 
 	public WebDriver driver = new ChromeDriver();
 
