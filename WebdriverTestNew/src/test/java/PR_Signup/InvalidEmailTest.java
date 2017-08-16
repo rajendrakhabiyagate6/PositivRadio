@@ -2,6 +2,7 @@ package PR_Signup;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.ClickAction;
 import org.testng.Assert;
@@ -10,9 +11,8 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.AfterTest;
 
 public class InvalidEmailTest {
-	public String st = System.setProperty("webdriver.gecko.driver", "E:\\FireFox\\geckodriver.exe");
-
-	public WebDriver driver = new FirefoxDriver();
+	public String st = System.setProperty("webdriver.chrome.driver", "E:\\ManishBackup\\chromedriver.exe");
+	public WebDriver driver = new ChromeDriver();
 
 	@Test(priority = 1)
 	public void InvalidEmail_Validation1() {
@@ -46,6 +46,6 @@ public class InvalidEmailTest {
 	public void afterTest() {
 		String URL = driver.getCurrentUrl();
 		Assert.assertEquals(URL, "http://positivradio.test.gate6.com/web/#/register");
-	 driver.quit();
+		driver.quit();
 	}
 }
