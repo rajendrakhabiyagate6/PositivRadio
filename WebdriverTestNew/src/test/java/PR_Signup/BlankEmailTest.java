@@ -11,8 +11,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.AfterTest;
 
 public class BlankEmailTest {
-	public String st = System.setProperty("webdriver.chrome.driver",
-			"ChromeDriver\\chromedriver.exe");
+	public String st = System.setProperty("webdriver.chrome.driver", "ChromeDriver\\ChromedriverLinux");
 
 	public WebDriver driver = new ChromeDriver();
 
