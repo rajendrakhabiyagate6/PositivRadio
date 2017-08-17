@@ -11,7 +11,7 @@ import org.testng.annotations.AfterTest;
 
 public class NewTest {
 public String st = System.setProperty("webdriver.chrome.driver",
-            "/ChromeNewDriver/chromedriver");
+            "/WebdriverTestNew/ChromeNewDriver/chromedriver");
 
 	public WebDriver driver = new ChromeDriver();
 
