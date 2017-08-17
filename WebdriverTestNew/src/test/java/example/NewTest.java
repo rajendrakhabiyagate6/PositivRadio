@@ -10,9 +10,10 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.AfterTest;
 
 public class NewTest {
-	public String st = System.setProperty("webdriver.chrome.driver", "ChromeDriver/geckodriver");
+public String st = System.setProperty("webdriver.chrome.driver", "ChromeDriver/geckodriver");
 
-	public WebDriver driver = new FirefoxDriver();
+	public WebDriver driver = new ChromeDriver();
+
 
 
 	@Test
