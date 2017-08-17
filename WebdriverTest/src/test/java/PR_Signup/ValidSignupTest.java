@@ -1,21 +1,31 @@
 package PR_Signup;
 
+import java.io.File;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.openqa.selenium.interactions.ClickAction;
+import org.openqa.selenium.phantomjs.PhantomJSDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.AfterTest;
 
-public class ValidSignupTest {
-	//public String st = System.setProperty("webdriver.chrome.driver", "ChromeDriver/Chromedriver.exe");
 
-	//public WebDriver driver = new ChromeDriver();
+
+public class ValidSignupTest {
 	
-	public	 WebDriver driver = new HtmlUnitDriver();
+	File file = new File("ChromeDriver/phantomjs");				
+	   
+	public String st = System.setProperty("phantomjs.binary.path", file.getAbsolutePath());
+
+	public  WebDriver driver = new PhantomJSDriver();
+
+
+	//public	 WebDriver driver = new HtmlUnitDriver();
 
 	@Test
 	public void Email_Validation() {

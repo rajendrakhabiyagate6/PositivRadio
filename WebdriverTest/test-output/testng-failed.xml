@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="PR_Signup.InvalidEmailTest">
+      <class name="PR_Signup.ValidSignupTest">
         <methods>
-          <include name="InvalidEmail_Validation1"/>
-          <include name="afterTest"/>
-          <include name="InvalidEmail_Validation12"/>
           <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="Email_Validation"/>
         </methods>
-      </class> <!-- PR_Signup.InvalidEmailTest -->
+      </class> <!-- PR_Signup.ValidSignupTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
