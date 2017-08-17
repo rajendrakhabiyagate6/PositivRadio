@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="PR_Signup.InvalidEmailTest">
+        <methods>
+          <include name="InvalidEmail_Validation1"/>
+          <include name="InvalidEmail_Validation12"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- PR_Signup.InvalidEmailTest -->
+      <class name="PR_Signup.ValidSignupTest">
+        <methods>
+          <include name="Email_Validation"/>
+        </methods>
+      </class> <!-- PR_Signup.ValidSignupTest -->
+      <class name="example.NewTest">
+        <methods>
+          <include name="testEasy"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- example.NewTest -->
+      <class name="PR_Signup.AppStatusTest">
+        <methods>
+          <include name="CheckApp_Status"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- PR_Signup.AppStatusTest -->
+      <class name="PR_Signup.BlankFullNameTest">
+        <methods>
+          <include name="FullName_Validation"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- PR_Signup.BlankFullNameTest -->
+      <class name="PR_Signup.BlankEmailTest">
+        <methods>
+          <include name="Email_Validation"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- PR_Signup.BlankEmailTest -->
+      <class name="PR_Signup.SocialFacebookSignUpTest">
+        <methods>
+          <include name="Email_Validation"/>
+        </methods>
+      </class> <!-- PR_Signup.SocialFacebookSignUpTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
