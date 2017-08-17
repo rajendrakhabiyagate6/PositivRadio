@@ -11,11 +11,9 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.AfterTest;
 
 public class ValidSignupTest {
-	public String st = System.setProperty("webdriver.chrome.driver",
-			"ChromeDriver\\chromedriver.exe");
+	public String st = System.setProperty("webdriver.chrome.driver", "ChromeDriver\\chromedriver.exe");
 
 	public WebDriver driver = new ChromeDriver();
-
 
 	@Test
 	public void Email_Validation() {
@@ -27,7 +25,7 @@ public class ValidSignupTest {
 		driver.findElement(By.xpath("//div[4]/div/div/button")).click();
 		String URL = driver.getCurrentUrl();
 
-		Assert.assertEquals(URL, "http://positivradio.test.gate6.com/web/#/comingsoon");
+		Assert.assertEquals(URL, "http://positivradio.test.gate6.com/web/#/register");
 
 	}
 
