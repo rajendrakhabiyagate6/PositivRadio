@@ -15,9 +15,13 @@ import org.testng.annotations.BeforeTest;
 public class AppStatusTest {
 	File file = new File("ChromeDriver/phantomjs");				
 	   
-	public String st = System.setProperty("phantomjs.binary.path", file.getAbsolutePath());
+//	public String st = System.setProperty("phantomjs.binary.path", file.getAbsolutePath());
+//
+//	public  WebDriver driver = new PhantomJSDriver();
+	
+	public String st = System.setProperty("webdriver.chrome.driver", "ChromeDriver/Chromedriver.exe");
 
-	public  WebDriver driver = new PhantomJSDriver();
+		public WebDriver driver = new ChromeDriver();
 
 	@Test
 	public void CheckApp_Status() {
