@@ -10,7 +10,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.AfterTest;
 
 public class NewTest {
-	public String st = System.setProperty("webdriver.chrome.driver", "ChromeDriver\\ChromedriverLinux");
+	public String st = System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
 
 	public WebDriver driver = new ChromeDriver();
 
