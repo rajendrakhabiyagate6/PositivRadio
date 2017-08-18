@@ -22,7 +22,7 @@ public class Signup_Test {
 	//
 	// public WebDriver driver = new PhantomJSDriver();
 
-	public String st = System.setProperty("webdriver.chrome.driver", "/ChromeDriver/chromedriver.exe");
+	public String st = System.setProperty("webdriver.chrome.driver", "ChromeDriver/chromedriver.exe");
 
 	public WebDriver driver = new ChromeDriver();
 
