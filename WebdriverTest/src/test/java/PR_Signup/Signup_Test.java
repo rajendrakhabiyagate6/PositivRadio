@@ -16,13 +16,13 @@ import org.testng.annotations.Test;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.AfterTest;
 
-public class SignupTest {
+public class Signup_Test {
 	// public String st = System.setProperty("phantomjs.binary.path",
 	// file.getAbsolutePath());
 	//
 	// public WebDriver driver = new PhantomJSDriver();
 
-	public String st = System.setProperty("webdriver.chrome.driver", "ChromeDriver/Chromedriver");
+	public String st = System.setProperty("webdriver.chrome.driver", "ChromeLinux/ChromedriverLin");
 
 	public WebDriver driver = new ChromeDriver();
 
